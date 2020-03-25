@@ -10,7 +10,7 @@ package main;
 * */
 public class CountCoincidences {
 
-    public int[] sum(int []a, int max) {
+    public int[] solution(int []a, int max) {
         int[] count = new int[max + 1];
         for (int k : a) {
             count[k] += 1;
